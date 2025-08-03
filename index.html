@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helping Hands NGO</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-blue-700 text-white p-4 fixed w-full z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Helping Hands</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:text-gray-300">Home</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#volunteer" class="hover:text-gray-300">Volunteer</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d');">
+    <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
+      <h2 class="text-4xl font-bold mb-4">Make a Difference with Helping Hands</h2>
+      <p class="text-lg mb-6">Empowering lives through education, care and compassion.</p>
+      <a href="#volunteer" class="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded">Become a Volunteer</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <!-- About Us Section -->
+<section id="about" class="py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-8 text-center text-blue-700">About Helping Hands</h2>
+    
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <!-- Left Text Content -->
+      <div>
+        <p class="text-lg mb-4">
+          <strong>Helping Hands</strong> is a non-profit organization founded in 2010 with the belief that every individual deserves dignity, opportunity, and access to essential resources. We strive to uplift marginalized communities by focusing on education, healthcare, women empowerment, and child welfare.
+        </p>
+        <p class="text-lg mb-4">
+          Over the years, our grassroots initiatives have reached over <strong>25,000+ lives</strong> across urban slums and rural villages in India. Through volunteer-driven campaigns, free medical camps, digital literacy drives, and food distribution programs, we’ve created long-lasting social impact.
+        </p>
+        <p class="text-lg mb-4">
+          At Helping Hands, we strongly believe that real change begins at the community level. Our approach combines empathy, data-driven planning, and consistent fieldwork. We’re powered by passionate volunteers, local partners, and everyday citizens like you.
+        </p>
+        <p class="text-lg">
+          Join us in building a future where no one is left behind. Together, we can create a world of equal opportunities and lasting compassion.
+        </p>
+      </div>
+
+      <!-- Right Side Image or Illustration -->
+      <div>
+        <img src="volunteers.webp" alt="Volunteers working" class="rounded-lg shadow-lg w-full h-auto" />
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 text-center gap-6">
+      <div>
+        <h3 class="text-3xl font-bold text-blue-700">25K+</h3>
+        <p class="text-gray-600">Lives Impacted</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold text-blue-700">500+</h3>
+        <p class="text-gray-600">Active Volunteers</p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-bold text-blue-700">15+</h3>
+        <p class="text-gray-600">States Reached</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Volunteer Form -->
+  <section id="volunteer" class="p-10">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4 text-blue-700 text-center">Work With Us</h2>
+      <form id="volunteer-form" class="space-y-4 bg-white p-6 rounded shadow-md">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full border p-2 rounded" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full border p-2 rounded" />
+        <textarea name="message" placeholder="Why do you want to volunteer?" required class="w-full border p-2 rounded"></textarea>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-900">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+
+ 
+    <!-- Contact Us Footer Section -->
+<footer id="contact" class="bg-blue-700 text-white p-10">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+    <p class="text-lg mb-2">We'd love to hear from you! Reach out anytime:</p>
+    <div class="space-y-2">
+      <p><strong>Email:</strong> support@helpinghands.org</p>
+      <p><strong>Phone:</strong> +91-9876xxxxxx</p>
+      <p><strong>Address:</strong> 123, Kindness Lane, New Delhi, India</p>
+    </div>
+    <hr class="my-6 border-white border-opacity-30" />
+    <p class="text-sm">&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
